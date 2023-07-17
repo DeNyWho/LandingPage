@@ -3,10 +3,10 @@
 build
 out
 kotlin-js-store
-
 # IntelliJ ignores
 *.iml
 /*.ipr
+.idea
 
 /.idea/caches
 /.idea/libraries
