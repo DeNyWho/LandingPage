@@ -1,0 +1,14 @@
+site:
+  title: "LandingPage"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/developmentExecutable/deny.js"
+      api: "build/libs/deny.jar"
+    prod:
+      script: "build/distributions/deny.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
